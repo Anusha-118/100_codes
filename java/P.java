@@ -1,18 +1,18 @@
 public class P {
     public static void main(String[] args) {
-        int n=7;
+        int a=10;int b=20;
+        
+        for(int n=a;n<=b;n++){
         int count=0;
-        for(int i=2;i<n;i++){
+        for(int i=1;i<=n;i++){
             if(n%i==0){
                 count+=1;
             }
         }
-        if(count==0){
-            System.out.println(n+ " "+ "is a prime number");
+        if(count==2){
+            System.out.println(n);
         }
-        else{
-            System.out.println(n+" "+ "is not a prime number");
-        }
+        
     }
-    
+}
 }
