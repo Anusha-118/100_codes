@@ -1,0 +1,2 @@
+a="manasa"
+print(a)
