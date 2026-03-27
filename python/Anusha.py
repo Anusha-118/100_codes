@@ -1,3 +1,3 @@
 name=input()
 n=int(input())
-print(name[::n])
+print(name[1::n])
