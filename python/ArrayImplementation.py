@@ -5,4 +5,3 @@ def create_reverse_array(size):
     return arr
 size = int(input("Enter the size of the array: "))
 print(create_reverse_array(size))
-print(create_reverse_array(size).reverse())
